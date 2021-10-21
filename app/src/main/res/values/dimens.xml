@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="wikiSearchTextFieldMargin">8dp</dimen>
+    <dimen name="photoOfTheDayHorizontalMargin">5dp</dimen>
+    <dimen name="photoOfTheDayTitleMarginHorizontal">5dp</dimen>
+</resources>
