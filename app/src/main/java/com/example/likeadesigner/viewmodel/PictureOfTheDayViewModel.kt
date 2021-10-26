@@ -6,7 +6,6 @@ import androidx.lifecycle.ViewModel
 import com.example.likeadesigner.BuildConfig
 import com.example.likeadesigner.model.internet.PODRetrofitImpl
 import com.example.likeadesigner.model.internet.PODServerResponseData
-import com.example.likeadesigner.model.internet.PictureOfTheDayData
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

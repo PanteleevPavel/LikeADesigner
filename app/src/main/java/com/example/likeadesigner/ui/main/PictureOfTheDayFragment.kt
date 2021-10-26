@@ -11,9 +11,9 @@ import androidx.lifecycle.ViewModelProvider
 import coil.api.load
 import com.example.likeadesigner.R
 import com.example.likeadesigner.databinding.MainFragmentBinding
-import com.example.likeadesigner.model.internet.PictureOfTheDayData
 import com.example.likeadesigner.view.util.hide
 import com.example.likeadesigner.view.util.show
+import com.example.likeadesigner.viewmodel.PictureOfTheDayData
 import com.example.likeadesigner.viewmodel.PictureOfTheDayViewModel
 
 class PictureOfTheDayFragment : Fragment() {

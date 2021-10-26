@@ -1,4 +1,6 @@
-package com.example.likeadesigner.model.internet
+package com.example.likeadesigner.viewmodel
+
+import com.example.likeadesigner.model.internet.PODServerResponseData
 
 sealed class PictureOfTheDayData {
     data class Success(val serverResponseData: PODServerResponseData) : PictureOfTheDayData()

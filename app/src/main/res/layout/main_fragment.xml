@@ -7,16 +7,9 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/wikiSearchTextField"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        style="@style/wikipediaSearchTextInputLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/wikiSearchTextFieldMargin"
-        android:hint="@string/wikiSearchTextFieldHint"
-        app:boxStrokeColor="@android:color/holo_blue_dark"
-        app:endIconDrawable="@drawable/ic_wikipedia"
-        app:endIconMode="custom"
-        app:helperText="@string/wikiSearchTextFieldHelperText"
-        app:helperTextEnabled="true"
         app:layout_constraintTop_toTopOf="@+id/main">
 
         <com.google.android.material.textfield.TextInputEditText
