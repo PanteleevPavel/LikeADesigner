@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">LikeADesigner</string>
+    <string name="photo_of_the_day_stub">Фото дня</string>
+    <string name="empty_link">К сожалению, не удалось загрузить картику</string>
+    <string name="wikiSearchTextFieldHint">Введите слово</string>
+    <string name="wikiSearchTextFieldHelperText">Поиск незнакомых слов в википедии</string>
+    <string name="settings_action_name">Настройки</string>
+    <string name="switch_theme_text">Тёмная тема</string>
+    <string name="view_pager_button_text">kavabanga</string>
 </resources>

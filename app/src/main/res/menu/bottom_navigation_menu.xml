@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/view_pager_button"
+        android:icon="@drawable/ic_baseline_view_carousel_24"
+        android:title="@string/view_pager_button_text" />
+
+</menu>
