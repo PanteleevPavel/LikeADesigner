@@ -12,4 +12,5 @@
     <color name="blue">#0E339F</color>
     <color name="brown">#403333</color>
     <color name="green">#2AA522</color>
+    <color name="colorAccent">#2962FF</color>
 </resources>

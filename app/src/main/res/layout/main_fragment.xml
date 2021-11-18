@@ -26,10 +26,10 @@
         android:layout_marginHorizontal="@dimen/photoOfTheDayHorizontalMargin"
         android:contentDescription="@string/photo_of_the_day_stub"
         android:scaleType="fitXY"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/wikiSearchTextField"
         app:srcCompat="@drawable/ic_no_photo_vector" />
 
     <com.google.android.material.textview.MaterialTextView
@@ -42,6 +42,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/photoOfTheDay"
         tools:text="Description text was here" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        style="@style/Widget.MaterialComponents.BottomNavigationView.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBaseline_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_navigation_menu" />
 
     <FrameLayout
         android:id="@+id/mainFragmentLoadingLayout"
