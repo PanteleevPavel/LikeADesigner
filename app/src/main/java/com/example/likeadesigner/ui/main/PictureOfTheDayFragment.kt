@@ -61,6 +61,7 @@ class PictureOfTheDayFragment : Fragment() {
                         photoOfTheDayTitle.text = serverResponseData.title
                     }
                 }
+                binding.mainMotion.transitionToEnd()
             }
             is PictureOfTheDayData.Loading -> {
                 binding.mainFragmentLoadingLayout.show()
