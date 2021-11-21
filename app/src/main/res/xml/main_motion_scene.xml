@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        app:constraintSetStart="@layout/main_fragment_start"
+        app:constraintSetEnd="@layout/main_fragment"
+        app:duration="1500"
+        app:motionInterpolator="easeIn">
+
+    </Transition>
+
+</MotionScene>
